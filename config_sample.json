@@ -1,0 +1,13 @@
+{
+  "api_key": "05f6bf62-879f-444c-9116-169f34655916",
+  "car": {
+    "pin": 17,
+    "pulse": 2
+  },
+  "garage": {
+    "pin": 27,
+    "pulse": 0.5,
+    "state_pin": 6,
+    "time": 15
+  }
+}
