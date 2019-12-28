@@ -4,7 +4,7 @@ Python API for automating remote start and garage door.
 Note: this is highly specific and should only be used as an example for your own project. Assumptions have been made that you at least know your way around an RPI and Linux. Basic hardware knowledge is needed (you need pin headers to plug a wire into it, Etc.)
 
 # Danger!
-This system does not check to see if the door is open prior to allowing the car to start. I purposefully made it this way so the car could be started when it is in the driveway without having to have the door open. The automation to start the car is done in a different tool (Home Assistant) and DOES perform a check to ensure the garage is open before allowing the car to start.
+This system does not check to see if the door is open prior to allowing the car to start. I purposefully made it this way so the car could be started when it is in the driveway without having to have the door open. <b>My implementation of this automation to start the car is done in a different tool (Home Assistant) and DOES perform a check to ensure the garage is open before allowing the car to start.
 
 Be aware - Carbon Monoxide will kill you. Use your head.
 
