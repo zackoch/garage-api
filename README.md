@@ -8,6 +8,15 @@ This system does not check to see if the door is open prior to allowing the car 
 
 Be aware - Carbon Monoxide <b>will</b> kill you. Use your head.
 
+# Technologies used
+* Python
+* Flask - core API functionality
+* SQLAlchemy - nice sql ORM
+* Marshmallow - serialization 
+* SQlite - db for logging api and future enhancements
+* Gunicorn - app server
+* Raspberry Pi and related hardware
+
 # Hardware
 - Raspberry Pi Zero W (with headers)
 - 2-Channel 5VDC relay
@@ -230,6 +239,7 @@ Give it 15 seconds or so, and it will be ready to start receiving requests... Yo
   
 # Todo
 * create an endpoint to get live status of garage reed switch
+* build backup frontend if Home Assistant isn't availble for some reason
 * learn how to program better
 
 
